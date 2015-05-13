@@ -1,0 +1,25 @@
+<!-- Each breadcrumb template is described by a VSTemplateContainer node. -->
+<VSTemplateContainer>
+    <!-- Root level project type. Should match a ProjectType's ID or an LanguageType in the installed template cache. -->
+    <ProjectTypeID>LightSwitch</ProjectTypeID>
+    
+    <!-- Subfolder (e.g. Windows\10.0), this should match the layout of installed templates on disk. -->
+    <Subfolder>LightSwitch</Subfolder>
+    
+    <!-- Localized -->
+    <!-- Subfolder display name. -->
+    <!-- If there is a localized display name in the installed template cache for this folder, it will take preceidence. -->
+    <!-- If there are conflicting localized display names in the feed, one will be chosen at random. -->
+    <SubfolderDisplayName>LightSwitch</SubfolderDisplayName>
+    
+    <!-- Template Data -->
+    <VSTemplate>
+        <TemplateData>
+            <TemplateID>GetLightSwitchTools</TemplateID>
+            <Name>Install LightSwitch Tools</Name>
+            <Description>Click to install LightSwitch tools</Description>
+            <InstallationMoniker>LightSwitch</InstallationMoniker>
+        </TemplateData>
+    </VSTemplate>
+</VSTemplateContainer>
+
